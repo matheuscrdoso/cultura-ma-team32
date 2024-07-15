@@ -2,11 +2,14 @@ import React from 'react';
 import Gallery from '../components/Gallery';
 import Comments from '../components/Comments';
 
+//Importando as Imagens
+import logo1 from '../assets/images/img1.jpg';
+import logo2 from '../assets/images/img1.jpg';
+import logo3 from '../assets/images/img1.jpg';
+
 const Artesanato = () => {
   const craftsImages = [
-    '/assets/images/crafts1.jpg',
-    '/assets/images/crafts2.jpg',
-    '/assets/images/crafts3.jpg'
+    logo1,logo2,logo3
   ];
 
   return (

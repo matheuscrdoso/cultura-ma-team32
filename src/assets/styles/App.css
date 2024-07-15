@@ -84,6 +84,14 @@ h2 {
   font-family: 'Lora', serif;
 }
 
+.map-container {
+  padding-top: 100px;
+  width: 700px;
+  margin-bottom: 50px;
+  color: #ffffff;
+  border: none;
+}
+
 /* Gallery */
 .gallery {
   display: flex;

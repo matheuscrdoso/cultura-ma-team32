@@ -2,11 +2,16 @@ import React from 'react';
 import Gallery from '../components/Gallery';
 import Comments from '../components/Comments';
 
+//Importando as Imagens
+import logo1 from '../assets/images/img1.jpg';
+import logo2 from '../assets/images/img1.jpg';
+import logo3 from '../assets/images/img1.jpg';
+
 const FestasPopulares = () => {
   const festivityImages = [
-    '/assets/images/festivity1.jpg',
-    '/assets/images/festivity2.jpg',
-    '/assets/images/festivity3.jpg'
+    logo1,
+    logo2,
+    logo3
   ];
 
   return (
