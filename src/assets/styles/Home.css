@@ -1,0 +1,32 @@
+  #home {
+    padding: 20px;
+  }
+  
+  h2{
+    padding: 20px;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .gallery-image {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    transition: transform 0.2s;
+  }
+
+  .gallery-item {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .gallery-image:hover {
+    transform: scale(1.05);
+  }
+  
