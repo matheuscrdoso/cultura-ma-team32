@@ -20,7 +20,13 @@ const FestasPopulares = () => {
   return (
     <section id="festas">
       <h2>Festas Populares do Maranhão</h2>
-      <p>O Maranhão é famoso por suas festas populares, como o Bumba Meu Boi, Carnaval e festas religiosas. Essas celebrações são ricas em cores, danças e músicas típicas:</p>
+      <p>O Maranhão é famoso por suas vibrantes e diversificadas festas populares, que encantam tanto os locais quanto os visitantes. Entre as celebrações mais notáveis estão o icônico Bumba Meu Boi, uma festa que combina música, dança e teatro popular em um espetáculo de cores e emoções; o animado Carnaval, que transforma as ruas em um grande palco de alegria e folia com desfiles e blocos de rua; e as festividades religiosas que incluem procissões e rituais com profunda significação cultural e espiritual.</p>
+
+      <p>Essas festas não são apenas eventos festivos, mas sim uma imersão nas tradições e na identidade cultural maranhense. Elas oferecem uma oportunidade única para experimentar a rica herança cultural do estado, através das danças típicas, das músicas tradicionais e dos trajes coloridos que refletem a diversidade e o entusiasmo do povo local.</p>
+
+      <p>Além disso, cada festa é acompanhada por uma gastronomia especial que complementa a experiência cultural. Pratos típicos são preparados e compartilhados, criando uma celebração que envolve todos os sentidos. Se você deseja entender verdadeiramente o espírito do Maranhão, participar dessas festas é uma imersão indispensável na sua rica tapeçaria cultural.</p>
+
+
 
       <div className="recipe-container">
         <Recipe
@@ -28,7 +34,7 @@ const FestasPopulares = () => {
           name = "Componentes"
           desc = "Descrição"
           itens="Ritual folclórico, danças, músicas, fantasias coloridas."
-          descricao="Num espetáculo de cores, danças e ritmos, o Bumba-Meu-Boi é a expressão máxima da cultura popular do Maranhão. Elevado a Patrimônio Imaterial do povo brasileiro, a manifestação tem origens indefinidas, mas elementos culturais africanos e europeus, introduzidos principalmente por meio da religiosidade, são evidentes. Nas comunidades que fazem a brincadeira, as celebrações e o trabalho em torno da festa duram praticamente o ano inteiro. Um dos desafios é preparar o couro do boi, revestimento de camurça belamente decorado com canutilhos que recobrem o corpo do animal, pois é de bom tom que este seja renovado a cada temporada. Mas é durante os festejos juninos que ele reina absoluto, arrastando multidões e encantando quem assiste pela primeira vez suas apresentações. No Bumba-Meu-Boi do Maranhão a variedade de sotaques, ou ritmos, faz a diferença."
+          descricao="Num espetáculo de cores, danças e ritmos, o Bumba-Meu-Boi é a expressão máxima da cultura popular do Maranhão. Elevado a Patrimônio Imaterial do povo brasileiro, a manifestação tem origens indefinidas, mas elementos culturais africanos e europeus, introduzidos principalmente por meio da religiosidade, são evidentes. Nas comunidades que fazem a brincadeira, as celebrações e o trabalho em torno da festa duram praticamente o ano inteiro."
           image={bumbaMeuBoiImg}
         />
 

@@ -14,9 +14,12 @@ const Artesanato = () => {
   return (
     <section id="artesanato">
       <h2>Artesanato Maranhense</h2>
-      <p>O artesanato maranhense é diverso e inclui cerâmica, renda, trançado, biojoias e trabalho em madeira, refletindo a riqueza cultural da região. Aqui estão algumas imagens representativas de cada tipo de artesanato:</p>
-      
-      <h3>Cerâmica</h3>
+      <p>O artesanato maranhense é um reflexo vibrante da riqueza cultural e da criatividade do estado. Com uma tradição que passa de geração em geração, o artesanato local é notável pela sua diversidade e pela qualidade de suas peças. Entre os tipos mais representativos estão a cerâmica, com suas formas e padrões únicos que capturam a essência da cultura regional; a renda, conhecida por seus intrincados e delicados trabalhos manuais; o trançado, que inclui desde itens utilitários até peças decorativas elaboradas; as biojoias, que combinam elementos naturais com design contemporâneo; e o trabalho em madeira, que resulta em belas esculturas e objetos ornamentais.</p>
+
+      <p>Cada peça de artesanato maranhense conta uma história e representa a habilidade e o espírito dos artesãos locais. As cerâmicas, muitas vezes adornadas com desenhos e cores tradicionais, são testemunhas das técnicas ancestrais que continuam a ser apreciadas. As rendas e o trançado demonstram a minúcia e a paciência dos artesãos, enquanto as biojoias e o trabalho em madeira mostram uma fusão de inovação e respeito pelas tradições.</p>
+
+      <p>Estas imagens representam a beleza e a diversidade do artesanato maranhense, oferecendo uma visão das diferentes formas de expressão artística que embelezam o estado e fazem parte do seu patrimônio cultural.</p>
+
       <div className="recipe-container">
         <Recipe
           title="Cerâmica Maranhense"

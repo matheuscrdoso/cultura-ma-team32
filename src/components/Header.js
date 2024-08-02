@@ -1,11 +1,14 @@
 import React from 'react';
-import logo from '../assets/images/bandeira-maranhao.png'; // Ajuste o caminho conforme necessário
+import { Link } from 'react-router-dom';
+import logo from '../assets/images/bandeira-maranhao.png'; 
 
 const Header = () => {
   return (
     <header>
       <div className="header-content">
-        <img src={logo} alt="Bandeira do Maranhão"  className="logo" />
+        <Link to="/">
+          <img src={logo} alt="Bandeira do Maranhão" className="logo" />
+        </Link>
         <h1>CulturaMA</h1>
       </div>
     </header>

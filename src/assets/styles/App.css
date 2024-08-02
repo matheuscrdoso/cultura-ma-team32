@@ -1,18 +1,15 @@
-/* Importando Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lora:wght@400;700&display=swap');
 
-/* Reset CSS */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 main {
-  padding-bottom: 4rem; /* Ajuste o valor conforme necessário */
+  padding-bottom: 4rem;
+  background-color: #f4f4f4;
 }
 
-
-/* Body */
 body {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
@@ -22,9 +19,8 @@ body {
   padding: 0;
 }
 
-/* Header */
 header {
-  background-color: #003d79; /* Darker Blue */
+  background-color: #003d79;
   color: #ffffff;
   padding: 1rem;
   text-align: center;
@@ -36,22 +32,22 @@ header {
 
 }
 header h1 {
-  font-size: 2.7rem; /* Ajuste o tamanho conforme necessário */
+  font-size: 2.7rem;
   margin: 0;
 }
 
 .logo {
-  width: 70px; /* Ajuste o tamanho conforme necessário */
+  width: 70px;
   height: auto;
   margin-right: 1rem;
 }
 h1 {
-  font-size: 1.5rem; /* Ajuste o tamanho conforme necessário */
+  font-size: 1.5rem;
   margin: 0;
 }
-/* Navigation Bar */
+
 nav {
-  background-color: #004e92; /* Blue */
+  background-color: #004e92;
   padding: 1rem;
 }
 
@@ -74,24 +70,22 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #FF5A5F; /* Red */
+  color: #FF5A5F;
   transform: scale(1.1);
 }
 
-/* Section */
 section {
   padding: 2rem;
 }
 
 h2 {
-  color: #004e92; /* Blue */
-  border-bottom: 2px solid #FF5A5F; /* Red underline */
+  color: #004e92;
+  border-bottom: 2px solid #FF5A5F;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
   font-family: 'Lora', serif;
 }
 
-/* Gallery */
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -112,13 +106,12 @@ h2 {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Comments */
 .comments-section {
   margin-top: 2rem;
 }
 
 .comments-section h3 {
-  color: #004e92; /* Blue */
+  color: #004e92;
   font-family: 'Lora', serif;
 }
 
@@ -145,7 +138,7 @@ h2 {
 }
 
 .comments-section button {
-  background-color: #004e92; /* Blue */
+  background-color: #004e92;
   color: #ffffff;
   border: none;
   padding: 0.5rem 1rem;
@@ -155,12 +148,11 @@ h2 {
 }
 
 .comments-section button:hover {
-  background-color: #FF5A5F; /* Red */
+  background-color: #FF5A5F;
 }
 
-/* Footer */
 footer {
-  background-color: #003d79; /* Darker Blue */
+  background-color: #003d79;
   color: #ffffff;
   text-align: center;
   padding: 1rem;
@@ -170,7 +162,6 @@ footer {
   height: 5.5rem;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
@@ -182,10 +173,9 @@ footer {
   }
 }
 
-/* Menu Toggle Button */
 .menu-toggle {
   display: none;
-  background-color: #003d79; /* Darker Blue */
+  background-color: #003d79;
   color: #ffffff;
   border: none;
   padding: 0.5rem;
@@ -196,7 +186,6 @@ footer {
   right: 1rem;
 }
 
-/* Nav Bar on Small Screens */
 nav ul {
   display: flex;
   flex-direction: row;
@@ -214,7 +203,7 @@ nav ul.open {
     top: 4rem;
     right: 0;
     width: 100%;
-    background-color: #004e92; /* Blue */
+    background-color: #004e92;
     border-radius: 4px;
   }
 

@@ -15,7 +15,13 @@ const PontosTuristicos = () => {
   return (
     <section id="turismo">
       <h2>Pontos Turísticos</h2>
-      <p>O Maranhão é um estado rico em belezas naturais e históricas, oferecendo uma diversidade de atrações que encantam visitantes de todo o mundo. Dentre os principais pontos turísticos, destacam-se os deslumbrantes Lençóis Maranhenses, o charmoso Centro Histórico de São Luís e a pitoresca cidade de Alcântara.</p>
+      <p>O Maranhão é um estado que se destaca por sua rica combinação de belezas naturais e históricas, proporcionando uma variedade de atrações para encantar visitantes de todas as partes do mundo. Entre os destinos imperdíveis estão os deslumbrantes Lençóis Maranhenses, um vasto deserto de dunas de areia branca intercaladas por lagoas de água cristalina, criando uma paisagem única e surreal.</p>
+
+      <p>O charmoso Centro Histórico de São Luís, com seu conjunto arquitetônico colonial e ruas de paralelepípedos, revela o passado vibrante da cidade, oferecendo um mergulho na rica herança cultural e histórica da região. Seus casarões coloridos e o patrimônio histórico são um testemunho da influência portuguesa e africana na cultura local.</p>
+
+      <p>Além disso, a pitoresca cidade de Alcântara, com suas ruínas históricas e atmosfera tranquila, proporciona uma experiência única ao explorar o passado colonial e os vestígios de antigas construções. Alcântara é também um ótimo lugar para apreciar a beleza natural ao redor, com vistas deslumbrantes do Rio Preguiças e da baía de São Marcos.</p>
+
+      <p>Esses pontos turísticos não apenas oferecem vistas deslumbrantes e experiências culturais enriquecedoras, mas também convidam os visitantes a se conectar com a essência do Maranhão, celebrando sua diversidade e beleza.</p>
 
       <div className="recipe-container">
         

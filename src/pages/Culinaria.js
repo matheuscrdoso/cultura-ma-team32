@@ -2,8 +2,7 @@ import React from 'react';
 import Comments from '../components/Comments';
 import Recipe from '../components/Recipe';
 
-
-// Importando as Imagens
+// importando imagens
 import arrozCuxaImg from '../assets/images/arrozCuxa.jpg';
 import cuxaPeixeImg from '../assets/images/cuxaPeixe.jpg';
 import tutuFeijaoImg from '../assets/images/tutuFeijao.jpg';
@@ -17,12 +16,15 @@ const Culinaria = () => {
   return (
     <section id="culinaria">
       <h2>Culinária Maranhense</h2>
-      <p>A culinária do Maranhão é rica e variada, com pratos típicos que refletem a diversidade cultural do estado. Entre os pratos mais conhecidos estão o arroz de cuxá, a torta de camarão e o sururu. Aqui estão algumas imagens dos pratos típicos:</p>
+      <p>A culinária do Maranhão é uma celebração da rica diversidade cultural do estado, oferecendo uma gama de sabores e pratos que encantam os paladares. Entre as delícias mais emblemáticas estão o <strong>arroz de cuxá</strong>, um prato aromático e saboroso preparado com arroz, vinagreira e cuxá (um tempero regional à base de plantas); a <strong>torta de camarão</strong>, uma iguaria deliciosa que combina camarões frescos com uma mistura cremosa e temperada; e o <strong>sururu</strong>, um prato tradicional à base de moluscos encontrados em regiões litorâneas, servido em diferentes preparações que destacam seu sabor único.</p>
 
-      <h3>História da culinária Maranhense</h3>
-      <p>A culinária maranhense é um verdadeiro tesouro gastronômico que reflete a riqueza cultural e histórica desse estado do nordeste brasileiro...</p>
-      <br/>
-      <h3>Receitas Típicas</h3>
+      <p>Estas imagens representam alguns dos pratos típicos da culinária maranhense, cada um oferecendo um vislumbre da riqueza e da complexidade dos sabores que definem a gastronomia local.</p>
+
+      <h3>História da Culinária Maranhense</h3>
+      <p>A culinária maranhense é um verdadeiro tesouro gastronômico que reflete a riqueza cultural e histórica deste estado do nordeste brasileiro. Influenciada pelas tradições indígenas, africanas e portuguesas, a cozinha do Maranhão é marcada por uma combinação única de ingredientes locais e técnicas culinárias que resultam em pratos distintos e memoráveis. Desde os tempos coloniais, a culinária do Maranhão evoluiu e se adaptou, incorporando novos ingredientes e sabores, mas sempre mantendo a essência das tradições antigas.</p>
+
+      <p>Os ingredientes locais, como a mandioca, o tucupi e o jambu, são fundamentais na culinária maranhense, oferecendo uma base rica para muitos pratos tradicionais. As receitas são passadas de geração em geração, preservando técnicas e sabores que continuam a ser uma parte vital da identidade cultural do estado. A culinária maranhense não é apenas uma experiência gastronômica, mas também um reflexo da história e da diversidade cultural que fazem do Maranhão um lugar tão especial.</p>
+
       <div className="recipe-container">
       <Recipe
         title="Arroz de Cuxá"
