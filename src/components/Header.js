@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header>
       <div className="header-content">
-        <img src={logo} alt="Bandeira do Maranhão" className="logo" />
+        <img src={logo} alt="Bandeira do Maranhão"  className="logo" />
         <h1>CulturaMA</h1>
       </div>
     </header>

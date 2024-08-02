@@ -21,48 +21,60 @@ const PontosTuristicos = () => {
         
         <Recipe
           title="Lençóis Maranhenses"
-          ingredients="Dunas de areia branca, lagoas de água cristalina."
-          instructions="Explore as vastas dunas e lagoas formadas pela chuva, com atividades como passeios de jipe, caminhadas e banhos nas lagoas."
+          name = "Caracteristicas do Lugar"
+          desc = "Detalhes"
+          itens="Dunas de areia branca, lagoas de água cristalina."
+          descricao="Explore as vastas dunas e lagoas formadas pela chuva, com atividades como passeios de jipe, caminhadas e banhos nas lagoas."
           image={lencoisImg}
         />
 
         
         <Recipe
           title="Centro Histórico de São Luís"
-          ingredients="Arquitetura colonial portuguesa, azulejos coloridos."
-          instructions="Visite o Palácio dos Leões, o Teatro Arthur Azevedo e outros pontos históricos, enquanto aprecia a arquitetura colonial bem preservada."
+          name = "Caracteristicas do Lugar"
+          desc = "Detalhes"
+          itens="Arquitetura colonial portuguesa, azulejos coloridos."
+          descricao="Visite o Palácio dos Leões, o Teatro Arthur Azevedo e outros pontos históricos, enquanto aprecia a arquitetura colonial bem preservada."
           image={centroHistoricoImg}
         />
 
       
         <Recipe
           title="Alcântara"
-          ingredients="Ruínas coloniais, casarões antigos."
-          instructions="Passeie pelo centro histórico e explore as ruínas e edificações antigas da cidade, com atrações como o Museu Histórico e a Praia de Itatinga."
+          name = "Caracteristicas do Lugar"
+          desc = "Detalhes"
+          itens="Ruínas coloniais, casarões antigos."
+          descricao="Passeie pelo centro histórico e explore as ruínas e edificações antigas da cidade, com atrações como o Museu Histórico e a Praia de Itatinga."
           image={alcantaraImg}
         />
 
      
         <Recipe
           title="Parque Nacional da Chapada das Mesas"
-          ingredients="Chapadões, cânions, cachoeiras."
-          instructions="Aproveite as paisagens deslumbrantes, incluindo cachoeiras e morros, ideais para ecoturismo e aventura."
+          name = "Caracteristicas do Lugar"
+          desc = "Detalhes"
+          itens="Chapadões, cânions, cachoeiras."
+          descricao="Aproveite as paisagens deslumbrantes, incluindo cachoeiras e morros, ideais para ecoturismo e aventura."
           image={chapadaMesasImg}
         />
 
      
         <Recipe
           title="Cachoeira do Itapecuru"
-          ingredients="Quedas d'água, piscinas naturais."
-          instructions="Desfrute de banhos nas cachoeiras e trilhas em meio à vegetação exuberante."
+          name = "Caracteristicas do Lugar"
+          desc = "Detalhes"
+          itens="Quedas d'água, piscinas naturais."
+          descricao="Desfrute de banhos nas cachoeiras e trilhas em meio à vegetação exuberante."
           image={cachoeiraItapecuruImg}
         />
 
    
         <Recipe
           title="Praia de Atins"
-          ingredients="Águas calmas, kitesurf."
-          instructions="Relaxe na praia tranquila, pratique kitesurf e explore a beleza natural ao redor."
+          name = "Caracteristicas do Lugar"
+          desc = "Detalhes"
+          itens="Águas calmas, kitesurf."
+          descricao="Relaxe na praia tranquila, pratique kitesurf e explore a beleza natural ao redor."
           image={praiaAtinsImg}
         />
 

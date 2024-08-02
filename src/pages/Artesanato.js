@@ -20,43 +20,55 @@ const Artesanato = () => {
       <div className="recipe-container">
         <Recipe
           title="Cerâmica Maranhense"
-          ingredients="Argila, técnicas tradicionais indígenas e europeias."
-          instructions="Produção de panelas, potes, pratos e esculturas com técnicas de modelagem manual e queima em fornos tradicionais."
+          name = "Materiais"
+          desc = "Produtos"
+          itens="Argila, técnicas tradicionais indígenas e europeias."
+          descricao="Produção de panelas, potes, pratos e esculturas com técnicas de modelagem manual e queima em fornos tradicionais."
           image={ceramicaImg}
         />
 
         <Recipe
           title="Renda Maranhense"
-          ingredients="Fios de algodão ou linha, técnicas de bilro e agulha."
-          instructions="Criação de vestuário, acessórios e itens decorativos com influências portuguesas, utilizando técnicas tradicionais."
+          name = "Materiais"
+          desc = "Produtos"
+          itens="Fios de algodão ou linha, técnicas de bilro e agulha."
+          descricao="Criação de vestuário, acessórios e itens decorativos com influências portuguesas, utilizando técnicas tradicionais."
           image={rendaImg}
         />
 
         <Recipe
           title="Trançado Maranhense"
-          ingredients="Palha de buriti, fibra de babaçu."
-          instructions="Produção de cestas, chapéus, esteiras e bolsas com técnicas de trançado manual herdadas das culturas indígena e afrodescendente."
+          name = "Materiais"
+          desc = "Produtos"
+          itens="Palha de buriti, fibra de babaçu."
+          descricao="Produção de cestas, chapéus, esteiras e bolsas com técnicas de trançado manual herdadas das culturas indígena e afrodescendente."
           image={trancadoImg}
         />
 
         <Recipe
           title="Biojoias Maranhenses"
-          ingredients="Sementes, fibras, conchas e outros elementos naturais."
-          instructions="Confecção de colares, pulseiras, brincos e acessórios decorativos, promovendo o uso consciente dos recursos naturais."
+          name = "Materiais"
+          desc = "Produtos"
+          itens="Sementes, fibras, conchas e outros elementos naturais."
+          descricao="Confecção de colares, pulseiras, brincos e acessórios decorativos, promovendo o uso consciente dos recursos naturais."
           image={biojoiasImg}
         />
 
         <Recipe
           title="Trabalho em Madeira Maranhense"
-          ingredients="Madeira, técnicas de escultura e marcenaria."
-          instructions="Criação de móveis rústicos, esculturas, brinquedos e peças decorativas, com influências indígenas e europeias."
+          name = "Materiais"
+          desc = "Produtos"
+          itens="Madeira, técnicas de escultura e marcenaria."
+          descricao="Criação de móveis rústicos, esculturas, brinquedos e peças decorativas, com influências indígenas e europeias."
           image={madeiraImg}
         />
 
         <Recipe
           title="Cestaria Maranhense"
-          ingredients="Cipó, palha de buriti, fibra de babaçu."
-          instructions="Produção de cestos, balaios, esteiras e outros objetos utilitários e decorativos com técnicas de trançado manual."
+          name = "Materiais"
+          desc = "Produtos"
+          itens="Cipó, palha de buriti, fibra de babaçu."
+          descricao="Produção de cestos, balaios, esteiras e outros objetos utilitários e decorativos com técnicas de trançado manual."
           image={cestariaImg}
         />
       </div>
